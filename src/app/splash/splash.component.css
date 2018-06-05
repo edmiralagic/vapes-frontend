@@ -1,0 +1,40 @@
+.splash-container {
+    padding: 0 40px;
+    width: calc(100% - 80px);;
+    height: 70vh;
+    min-height: 500px;
+    background: url(../../assets/images/girl_vaping_splash.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.splash-container-message {
+    padding: 10px 0;
+    font-size: 4em;
+    color: white;
+    font-weight: 100;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.splash-container-button {
+    border: 1px solid #599014;
+    background: transparent;
+    border-radius: 50px;
+    padding: 15px 40px;
+    font-size: 1em;
+    color: #599014;
+    text-transform: uppercase;
+}
+
+.splash-container-button:hover {
+    color: white;
+    background: #599014;
+    cursor: pointer;
+}

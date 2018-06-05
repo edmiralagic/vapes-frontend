@@ -5,8 +5,26 @@ html, body {
     width: 100%;
     padding: 0;
     margin: 0;
+    z-index: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clear {
     clear: both;
+}
+
+.is-full-width {
+    width: 100%;
+}
+
+.is-relative-position {
+    position: relative;
+}
+
+.has-vertical-margin-20 {
+    margin: 20px 0;
+}
+
+.has-vertical-margin-50 {
+    margin: 50px 0;
 }
